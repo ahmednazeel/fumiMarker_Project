@@ -1,0 +1,54 @@
+header {
+    margin-bottom: 0;
+}
+
+.banner {
+    height: 250px;
+}
+
+textarea {
+    height: 159px;
+    width: 100%;
+    display: block;
+}
+
+.contact-boxes {
+    gap: 57px;
+}
+
+.contact-box {
+    text-align: center;
+    width: 389px;
+    max-width: 100%;
+    border-radius: 16px;
+    background: var(--blue-500, #3E5B5F);
+    padding-block: 24px 56px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+.contact-box .icon {
+    margin-inline: auto;
+    padding: 26px;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-bottom: 32px;
+}
+
+.contact-box .box-name {
+    margin-bottom: 16px;
+}
+
+@media (max-width:932px) {
+    .contact-boxes {
+        justify-content: center !important;
+    }
+
+}
+

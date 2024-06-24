@@ -1,0 +1,6 @@
+.name_Group {
+    gap: 15px;
+}
+.name_Group > div{
+    flex: 1;
+}

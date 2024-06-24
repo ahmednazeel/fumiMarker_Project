@@ -1,0 +1,19 @@
+
+.inputWrapper:last-child {margin-bottom: 0;}
+
+input[type="checkbox"] {
+  width: 24px !important;
+  height: 24px !important;
+  margin: 0;
+  padding: 0 !important;
+}
+input[type="checkbox"]:checked {
+  background-color: var(--orange-500) !important;
+  border: var(--orange-500);
+}
+
+
+.remmeber label {
+  margin: 0 !important;
+}
+.remmeber {margin-top: 12px;}
